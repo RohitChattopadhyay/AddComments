@@ -1,0 +1,56 @@
+{
+    "language" : {
+        "java" : {
+            "single" : {
+                "start" : "//",
+                "end" : ""
+            },
+            "multi" : {
+                "start" : "/*",
+                "end" : "*/"
+            }
+        },
+        "js" : {
+            "single" : {
+                "start" : "//",
+                "end" : ""
+            },
+            "multi" : {
+                "start" : "/*",
+                "end" : "*/"
+            }
+        },
+        "html" : {
+            "single" : {
+                "start" : "<!-- ",
+                "end" : " -->"
+            },
+            "multi" : {
+                "start" : "<!--",
+                "end" : "-->"
+            }
+        },
+        "css" : {
+            "single" : {
+                "start" : "/* ",
+                "end" : " */"
+            },
+            "multi" : {
+                "start" : "/*",
+                "end" : "*/"
+            }
+        }
+    },
+    "skip" : {
+        "folders" : [
+            "target",
+            "node_modules"
+        ],
+        "files" : [
+            "package.json",
+            "package-lock.json",
+            "yarn.lock",
+            "LICENSE"
+        ]
+    }
+}
